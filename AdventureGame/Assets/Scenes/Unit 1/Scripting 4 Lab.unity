@@ -522,6 +522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1804817000}
   - component: {fileID: 1804817001}
+  - component: {fileID: 1804817002}
   m_Layer: 0
   m_Name: CharacterArt
   m_TagString: Untagged
@@ -596,6 +597,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1804817002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804816999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9914d55c3075a4b14a80c1204e72e335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key1Event:
+    m_PersistentCalls:
+      m_Calls: []
+  key2Event:
+    m_PersistentCalls:
+      m_Calls: []
+  keyOffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  key1: 276
+  key2: 275
+  direction1: 180
+  direction2: 0
 --- !u!1 &1827056500
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +632,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1827056504}
   - component: {fileID: 1827056503}
-  - component: {fileID: 1827056502}
   - component: {fileID: 1827056501}
   m_Layer: 0
   m_Name: CharacterMover
@@ -628,31 +653,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
---- !u!114 &1827056502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827056500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9914d55c3075a4b14a80c1204e72e335, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1Event:
-    m_PersistentCalls:
-      m_Calls: []
-  key2Event:
-    m_PersistentCalls:
-      m_Calls: []
-  keyOffEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  key1: 276
-  key2: 275
-  direction1: 180
-  direction2: 0
 --- !u!143 &1827056503
 CharacterController:
   m_ObjectHideFlags: 0
