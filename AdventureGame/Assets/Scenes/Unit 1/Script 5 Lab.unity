@@ -843,6 +843,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes
       objectReference: {fileID: 0}
+    - target: {fileID: 5402169979826696458, guid: 0754001a829004b349d8bc70dce08bd7, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953853731743142198, guid: 0754001a829004b349d8bc70dce08bd7, type: 3}
+      propertyPath: m_Size.x
+      value: 0.16000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953853731743142198, guid: 0754001a829004b349d8bc70dce08bd7, type: 3}
+      propertyPath: m_Size.y
+      value: 0.08319675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953853731743142198, guid: 0754001a829004b349d8bc70dce08bd7, type: 3}
+      propertyPath: m_Center.y
+      value: -0.038401674
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
