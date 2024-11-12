@@ -820,6 +820,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1267143841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267143833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51a8b9f2b5c444692ad97dda0760c012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1267143840}
 --- !u!1 &1584222488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,7 +1351,7 @@ GameObject:
   - component: {fileID: 1827056510}
   m_Layer: 0
   m_Name: CharacterMover
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1836,6 +1849,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2047384197820122854, guid: c276927205f614fbcb86e6f37412c0ce, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1267143840}
+    - targetCorrespondingSourceObject: {fileID: 2047384197820122854, guid: c276927205f614fbcb86e6f37412c0ce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1267143841}
   m_SourcePrefab: {fileID: 100100000, guid: c276927205f614fbcb86e6f37412c0ce, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
