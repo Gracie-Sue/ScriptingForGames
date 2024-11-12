@@ -7,13 +7,20 @@ using UnityEngine.UI;
 public class SimpleImageBehaviour : MonoBehaviour
 {
     private Image imageObj;
-    public SimpleFloatData dataObj;
-    
+
+    [SerializeField]  // This ensures the field shows in the Inspector even if it is private
+    public SimpleFloatData dataObj; 
+
     private void Start()
     {
         imageObj = GetComponent<Image>();
     }
-    
+
+    private void Update()
+    {
+        UpdateWithFloatData();
+    }
+
     public void UpdateWithFloatData()
     {
         imageObj.fillAmount = dataObj.value;

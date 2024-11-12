@@ -6,6 +6,7 @@ public class SimpleCharacterController : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 8f;
     public float gravity = -9.81f;
+	
 
     private CharacterController controller;
     private Vector3 velocity;
@@ -60,5 +61,5 @@ public class SimpleCharacterController : MonoBehaviour
         var currentPosition = thisTransform.position;
 		currentPosition.z = 0f;
 		thisTransform.position = currentPosition;
-    }
+	}
 }
